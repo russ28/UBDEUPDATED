@@ -33,8 +33,8 @@
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top " style="background-color: dimgray;">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
-        <i class="icofont-envelope" style="color:gold;"></i> <a href="mailto:contact@example.com">contact@example.com</a>
-        <i class="icofont-phone" style="color:gold;"></i> <a href="#">+1 5589 55488 55</a>
+        <i class="icofont-envelope" style="color:#e1ad01;"></i> <a href="mailto:admin@ub.edu.ph">admin@ub.edu.ph</a>
+        <i class="icofont-phone" style="color:#e1ad01;"></i> <a href="tel:+63439800041">+63.43.980.00.41</a>
       </div>
       <div class="social-links">
         <a target="_blank" href="https://twitter.com/ubatangas" class="twitter"><i class="icofont-twitter"></i></a>
@@ -52,7 +52,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
       <h1>University of Batangas Distance Learning Portal</h1>
-      <h2>Where we meet infinite possibilities.</h2>
+      <h2>&infin; Where we meet infinite possibilities.</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
   </section><!-- End Hero -->
@@ -512,7 +512,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>contact@example.com</p>
+              <p><a href="mailto:admin@ub.edu.ph">admin@ub.edu.ph</a></p>
             </div>
           </div>
 
@@ -520,7 +520,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
+              <p><a href="tel:+63439800041">+63.43.980.00.41</a></p>
             </div>
           </div>
 

@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 #topbar .contact-info a {
   line-height: 1;
   /*color: rgba(255, 255, 255, 0.6);*/
-  color: gold;
+  color:  #e1ad01;
   transition: 0.3s;
 }
 
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .social-links a {
   /*color: rgba(255, 255, 255, 0.5);*/
-  color: gold;
+  color: #e1ad01;
   padding-left: 15px;
   display: inline-block;
   line-height: 1px;
@@ -482,8 +482,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: maroon;
+  border-color: maroon;
 }
 
 @media (min-width: 1024px) {
