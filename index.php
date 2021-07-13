@@ -162,13 +162,12 @@
     <!-- ======= Courses Section ======= -->
     <section id="courses" class="services">
       <div class="container">
-
         <div class="section-title">
           <span>Course Category</span>
           <h2>Course Category</h2>
           <p>We provide infinite learning...</p>
         </div>
-
+        
         <div class="row">
           <?php
             include "components/course_categ.php";
