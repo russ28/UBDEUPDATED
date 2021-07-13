@@ -164,8 +164,8 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Courses</span>
-          <h2>Courses</h2>
+          <span>Course Category</span>
+          <h2>Course Category</h2>
           <p>We provide infinite learning...</p>
         </div>
 
@@ -579,7 +579,7 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Courses</h4>
+            <h4>Course Category</h4>
             <ul>
               <?php
                 foreach($category as $l){
