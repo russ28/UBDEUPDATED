@@ -167,7 +167,7 @@
           <h2>Course Category</h2>
           <p>We provide infinite learning...</p>
         </div>
-        
+
         <div class="row">
           <?php
             include "components/course_categ.php";
@@ -559,11 +559,6 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i><a href="#hero" class="scrollto">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="#about" class="scrollto">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="#courses" class="scrollto">Courses</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="#team" class="scrollto">Faculty</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="#news" class="scrollto">News</a></li>
               <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://enrollment.ub.edu.ph/admission/form.php?q=new">Application</a></li>
               <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://ubsd.ub.edu.ph/ubopbc/index.php">Payment Portal</a></li>
               <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://enrollment.ub.edu.ph/admission/">Enrollment</a></li>
@@ -571,8 +566,8 @@
               <li><i class="bx bx-chevron-right"></i><a target="_blank" href="http://cprell.ub.edu.ph/">Research</a></li>
               <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://ubian.ub.edu.ph/?from=%2Fhome_news&log_in_required=true">UBIAN LMS</a></li>
               <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://ebrahman.ub.edu.ph/loginpage.php">eBRAHMAN</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="#">Privacy policy</a></li>
+<!--               <li><i class="bx bx-chevron-right"></i><a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
 
