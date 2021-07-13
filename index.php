@@ -540,7 +540,6 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
               <h3>UB Distance Learning Portal</h3>
@@ -551,9 +550,9 @@
                 <strong>Email:</strong> admin@ub.edu.ph<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="vimeo"><i class="bx bxl-vimeo"></i></a>
+                <a target="_blank" href="https://twitter.com/ubatangas" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com/ubatangas" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a target="_blank" href="https://vimeo.com/ubatangas" class="vimeo"><i class="bx bxl-vimeo"></i></a>
               </div>
             </div>
           </div>
