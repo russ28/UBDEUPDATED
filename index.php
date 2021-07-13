@@ -68,7 +68,7 @@
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>About University of Batangas</h3>
             <p class="font-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
@@ -97,7 +97,7 @@
 
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
-              <span>01</span>
+              <span>Mission</span>
               <h4>Lorem Ipsum</h4>
               <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
             </div>
@@ -105,7 +105,7 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
-              <span>02</span>
+              <span>Vision</span>
               <h4>Repellat Nihil</h4>
               <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
             </div>
@@ -113,7 +113,7 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
-              <span>03</span>
+              <span>Objectives</span>
               <h4> Ad ad velit qui</h4>
               <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
             </div>
@@ -159,65 +159,31 @@
       </div>
     </section><!-- End Clients Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- ======= Courses Section ======= -->
+    <section id="courses" class="services">
       <div class="container">
 
         <div class="section-title">
           <span>Courses</span>
           <h2>Courses</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          <p>We provide infinite learning...</p>
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-            </div>
-          </div>
-
+          <?php
+            include "components/course_categ.php";
+            foreach($category as $x){
+              $delay = 0;
+              echo '<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay= "'.$delay.'">
+                    <div class="icon-box">
+                      <div class="icon"><i class="'.$x['icon'].'"></i></div>
+                      <h4><a href="courses.php?filter='.$x['code'].'">'.$x['categ'].'</a></h4>
+                      <p>'.$x['description'].'</p>
+                    </div>
+                  </div>';
+            }
+            $delay = $delay + 150;
+          ?>
         </div>
 
       </div>
@@ -504,7 +470,7 @@
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>Kumintang Ibaba, Hilltop, Batangas City</p>
             </div>
           </div>
 
@@ -521,6 +487,7 @@
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
               <p><a href="tel:+63439800041">+63.43.980.00.41</a></p>
+              <p><a href="tel:+63437231446">+63.43.723.14.46</a></p>
             </div>
           </div>
 
@@ -576,19 +543,17 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>Day</h3>
+              <h3>UB Distance Learning Portal</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Kumintang Ibaba, Hilltop, Batangas City<br><br>
+                <strong>Phone:</strong> +63.43.980.00.41<br>
+                <strong>Phone:</strong> +63.43.723.14.46<br>
+                <strong>Email:</strong> admin@ub.edu.ph<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="vimeo"><i class="bx bxl-vimeo"></i></a>
               </div>
             </div>
           </div>
@@ -596,22 +561,31 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Courses</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="#hero" class="scrollto">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="#about" class="scrollto">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="#courses" class="scrollto">Courses</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="#team" class="scrollto">Faculty</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="#news" class="scrollto">News</a></li>
+              <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://enrollment.ub.edu.ph/admission/form.php?q=new">Application</a></li>
+              <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://ubsd.ub.edu.ph/ubopbc/index.php">Payment Portal</a></li>
+              <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://enrollment.ub.edu.ph/admission/">Enrollment</a></li>
+              <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://sites.google.com/a/ub.edu.ph/library-department/">UB Library Portal</a></li>
+              <li><i class="bx bx-chevron-right"></i><a target="_blank" href="http://cprell.ub.edu.ph/">Research</a></li>
+              <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://ubian.ub.edu.ph/?from=%2Fhome_news&log_in_required=true">UBIAN LMS</a></li>
+              <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://ebrahman.ub.edu.ph/loginpage.php">eBRAHMAN</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Courses</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <?php
+                foreach($category as $l){
+                  echo '<li><i class="bx bx-chevron-right"></i> <a href="courses.php?filter='.$l['code'].'">'.$l['categ'].'</a></li>';
+                }
+              ?>
             </ul>
           </div>
 
@@ -633,11 +607,6 @@
         &copy; Copyright <strong><span>Day</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/day-multipurpose-html-template-for-free/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->

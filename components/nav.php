@@ -1,7 +1,7 @@
 <header id="header" class="fixed-top " style="background-color:dimgray;">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html">UBDisEd</a></h1>
+      <h1 class="logo mr-auto"><a href="#hero" class="scrollto">UBDisEd</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -14,7 +14,7 @@
           <!-- ACADEMICS -->
           <li class="drop-down"><a href="#">Academics</a>
             <ul>
-              <li><a href="#services">Courses</a></li>
+              <li><a href="#courses">Courses</a></li>
 
               <li><a href="#">Calendar</a></li>
               <li><a href="#team">Faculty</a></li>

@@ -1,6 +1,10 @@
-Thanks for downloading this template!
+_________________________________________
+COLOR PALLETTE							|
+________________________________________|
+1. MUSTARD YELLOW - #e1ad01				|
+2. MAROON - #800000						|
+3. WHITE - #FFFFFF						|
+										|
+________________________________________|
 
-Template Name: Day
-Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Dev: Prince Arce
