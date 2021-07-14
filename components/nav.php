@@ -24,7 +24,7 @@
           <!-- ADMISSION -->
           <li class="drop-down"><a href="#">Admission</a>
             <ul>
-              <li><a target="_blank" href="https://enrollment.ub.edu.ph/admission/form.php?q=new">Application</a></li>
+              <li><a target="_blank" href="https://enrollment.ub.edu.ph/admission/form.php?q=new">Application Procedure</a></li>
               <li><a target="_blank" href="#">Tuition & Other Fees</a></li>
               <li><a target="_blank" href="https://ubsd.ub.edu.ph/ubopbc/index.php">Payment Portal</a></li>
             </ul>
