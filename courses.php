@@ -62,29 +62,40 @@
 
     <section>
       <div class="container">
+        <div class="row mb-3">
+          <select class="form-select form-control col-lg-4 col-md-6 col-sm-12" aria-label="Default select example" style="margin-left: 3%;margin-right: 3%;" id="filter_data" onchange="filter_course()">
+            <option value="">-- Course Category--</option>
+             <?php
+              include 'components/course_categ.php';
+              foreach ($category as $list) {
+                echo '<option value="'.$list['code'].'">'.$list['categ'].'</option>';
+              }
+              ?>
+          </select>
+        </div>
         <div class="row">
         <?php
-			$filter = $_GET['filter'];
-			include 'components/course_data.php';
-			foreach($subject as $sub){
-				$delay = 0;
-				// SKIP COURSE THAT IS NOT ASSOCIATED WITH THE CATEGORY
-				if($sub['code'] != $filter) continue;
-              	echo '<div class="mt-4 mb-3 col-lg-8 col-md-8 col-sm-12">';
-              	echo '<h3 style="color:#800000;">'.$sub['course_title'].'</h3>';
-              	echo '<div>';
-              	echo '<p>'.$sub['description'].'</p>';
-              	echo '<p><b>Faculty:</b>&nbsp;'.$sub['faculty'].'</p>';
-              	echo '<p><b>Duration:</b>&nbsp;'.$sub['duration'].'</p>';
-              	echo '<a href="" class="btn btn-secondary btn-sm">Enroll</a>';
-              	echo '</div>';
-              	echo '</div>';
-              	echo '<div class="mt-4 mb-3 col-lg-4">';
-              	echo '<img src="'.$sub['image'].'" class="img-thumbnail"/>';
-              	echo '</div>';
-			}
-			$delay = $delay + 150;
-		?>
+  			$filter = $_GET['filter'];
+  			include 'components/course_data.php';
+  			foreach($subject as $sub){
+  				$delay = 0;
+  				// SKIP COURSE THAT IS NOT ASSOCIATED WITH THE CATEGORY
+  				if($sub['code'] != $filter) continue;
+                	echo '<div class="mt-4 mb-3 col-lg-8 col-md-8 col-sm-12">';
+                	echo '<h3 style="color:#800000;">'.$sub['course_title'].'</h3>';
+                	echo '<div>';
+                	echo '<p>'.$sub['description'].'</p>';
+                	echo '<p><b>Faculty:</b>&nbsp;'.$sub['faculty'].'</p>';
+                	echo '<p><b>Duration:</b>&nbsp;'.$sub['duration'].'</p>';
+                	echo '<a href="" class="btn btn-secondary btn-sm">Enroll</a>';
+                	echo '</div>';
+                	echo '</div>';
+                	echo '<div class="mt-4 mb-3 col-lg-4">';
+                	echo '<img src="'.$sub['image'].'" class="img-thumbnail"/>';
+                	echo '</div>';
+  			}
+  			$delay = $delay + 150;
+  		?>
 		</div>
       </div>
     </section>
@@ -136,6 +147,11 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#filter_data').val('<?=$filter;?>');
+    });
+  </script>
 </body>
 </html>
 

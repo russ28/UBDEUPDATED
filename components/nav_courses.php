@@ -39,8 +39,8 @@
           <li class="drop-down">
             <a href="#">Library</a>
             <ul>
-              <li><a target="_blank" href="https://sites.google.com/a/ub.edu.ph/library-department/">UB Library Portal</a></li>
-              <li><a target="_blank" href="http://cprell.ub.edu.ph/">Research</a></li>
+              <li><a target="_blank" href="https://sites.google.com/a/ub.edu.ph/library-department/">UB Library Resource Learning Center</a></li>
+              <li><a target="_blank" href="http://cprell.ub.edu.ph/">CPRELL</a></li>
             </ul>
           </li>
 
