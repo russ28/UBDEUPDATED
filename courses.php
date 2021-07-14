@@ -42,7 +42,7 @@
     </div>
   </div>
 <!-- ======= Header ======= -->
-<?php include 'components/nav.php';?>
+<?php include 'components/nav_courses.php';?>
 
 
 <main id="main">
