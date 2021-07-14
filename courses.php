@@ -63,7 +63,7 @@
     <section>
       <div class="container">
         <div class="row mb-3">
-          <select class="form-select form-control col-lg-4 col-md-6 col-sm-12" aria-label="Default select example" style="margin-left: 3%;margin-right: 3%;" id="filter_data" onchange="filter_course()">
+          <select class="form-select form-control col-lg-4 col-md-6 col-sm-12" aria-label="Default select example" style="margin-left: 1%;margin-right: 1%;" id="filter_data" onchange="filter_course()">
             <option value="">-- Course Category--</option>
              <?php
               include 'components/course_categ.php';
