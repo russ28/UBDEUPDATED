@@ -1,11 +1,11 @@
 <?php
 	
 	$subject = array(
-		// IT
+		// IT ====================================================================================================================================================
 		array(
 			"course_title" => "Crash Course in Python",
 			"duration"=> "40 hours",
-			"description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"description" => "This course is an introduction to the Python programming language for students without prior programming experience. We cover data types, control flow, object-oriented programming, and graphical user interface-driven applications. The examples and problems used in this course are drawn from diverse areas such as text processing, simple graphics creation and image manipulation and web programming.",
 			"faculty" => "Mrs. Divina Casao/Mr. Russel Reyes",
 			"image" => "https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
 			"code" => "infotech"
@@ -13,7 +13,7 @@
 		array(
 			"course_title" => "Basic Drawing and 2D Animation",
 			"duration"=> "40 hours",
-			"description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"description" => "This course is an introduction to drawing and animation for students develop drawing skills while learning the principles of squash and stretch, follow-through and overlapping, anticipation, timing, keyframes, and in-betweening. Lessons in character animation and storyboarding explore the elements necessary to bring animation to life. Students use 2D animation software to compile and playback the animation.",
 			"faculty" => "Mrs. Bernadet Macaraig/Mr. Rene Magpantay",
 			"image" => "https://images.pexels.com/photos/36762/scarlet-honeyeater-bird-red-feathers.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
 			"code" => "infotech"
@@ -21,7 +21,7 @@
 		array(
 			"course_title" => "Graphics Design Course",
 			"duration"=> "40 hours",
-			"description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"description" => "This course focuses on the procedures commonly used in the graphic communication and design industries. Students will gain experience in creative problem solving and the practical implementation of those solutions across multiple areas of graphic communications.",
 			"faculty" => "Mr. Rene Magpantay/ Mr. Enrico Villanueva",
 			"image" => "https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
 			"code" => "infotech"
@@ -29,7 +29,7 @@
 		array(
 			"course_title" => "Introduction to Project Management Course",
 			"duration"=> "40 hours",
-			"description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"description" => "This course focuses on the project life cycle and students will discover and learn how to build a successful project from pre-implementation to completion. This course will introduce project management topics such as resources, costs, time constraints and project scopes.",
 			"faculty" => "Mrs. Bernadet Macaraig// Ms. Elvie Pita",
 			"image" => "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
 			"code" => "infotech"
@@ -37,7 +37,7 @@
 
 
 
-		// CBA
+		// CBA ===================================================================================================================================================
 		array(
 			"course_title" => "Certificate in Business Analytics",
 			"duration"=> "40 hours",
@@ -47,7 +47,7 @@
 			"code" => "business"
 		),
 
-		// CAS
+		// CAS ===================================================================================================================================================
 		array(
 			"course_title" => "Legislative Skills Training",
 			"duration"=> "24 hours",
@@ -82,7 +82,7 @@
 		),
 
 
-		// CEDU
+		// CEDU ==================================================================================================================================================
 		array(
 			"course_title" => "Civil Service Exam Review",
 			"duration"=> "4 Months",
