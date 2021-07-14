@@ -89,7 +89,34 @@
       </div>
     </section>
 
+    <!-- ======= Courses Section ======= -->
+    <section id="courses" class="services">
+      <div class="container">
+        <div class="section-title">
+          <span>Course Category</span>
+          <h2>Course Category</h2>
+          <p>We provide infinite learning...</p>
+        </div>
 
+        <div class="row">
+          <?php
+            include "components/course_categ.php";
+            foreach($category as $x){
+              $delay = 0;
+              echo '<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay= "'.$delay.'">
+                    <div class="icon-box">
+                      <div class="icon"><i class="'.$x['icon'].'"></i></div>
+                      <h4><a href="courses.php?filter='.$x['code'].'">'.$x['categ'].'</a></h4>
+                      <p>'.$x['description'].'</p>
+                    </div>
+                  </div>';
+            }
+            $delay = $delay + 150;
+          ?>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
   </main><!-- End #main -->
 
 
