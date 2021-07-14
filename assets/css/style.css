@@ -1,13 +1,4 @@
-/**
-* Template Name: Day - v2.2.1
-* Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -714,6 +705,7 @@ section {
   /*color: #191919;*/
   color: dimgray;
 }
+
 
 .services .icon-box p {
   line-height: 24px;
