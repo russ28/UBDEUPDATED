@@ -127,35 +127,17 @@
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
       <div class="container" data-aos="zoom-in">
-
         <div class="row d-flex align-items-center">
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
-
+          <?php
+            $dir = 'assets/img/clients/org/';
+            $files = scandir($dir);
+            foreach($files as $img){
+              echo ' <div class="col-lg-6 col-md-12 col-sm-12">
+                      <img src="'.$dir.'/'.$img.'" class="img-fluid" alt="">
+                    </div>';
+            }
+          ?>
         </div>
-
       </div>
     </section><!-- End Clients Section -->
 
@@ -206,8 +188,8 @@
       <div class="container">
 
         <div class="section-title">
-          <span>News</span>
-          <h2>News</h2>
+          <span>News & Features</span>
+          <h2>News & Features</h2>
           <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
         <div class="row">
@@ -215,7 +197,7 @@
           include 'components/news_data.php';
           foreach($news as $n){
                   echo '<div class="mt-4 mb-3 col-lg-4">';
-                  echo '<img src="'.$n['image'].'" class="img-thumbnail"/>';
+                  echo '<img src="'.$n['image'].'" class="img-fluid"/>';
                   echo '</div>';
                   echo '<div class="mt-4 mb-3 col-lg-8 col-md-8 col-sm-12">';
                   echo '<h3 style="color:#800000;">'.$n['news_title'].'</h3>';
@@ -225,7 +207,6 @@
                   echo '<p><b>Date:</b>&nbsp;'.$n['date_posted'].'</p>';
                   echo '</div>';
                   echo '</div>';
-                  
               }
         ?>
      </div>

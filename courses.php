@@ -91,7 +91,7 @@
                 	echo '</div>';
                 	echo '</div>';
                 	echo '<div class="mt-4 mb-3 col-lg-4">';
-                	echo '<img src="'.$sub['image'].'" class="img-thumbnail"/>';
+                	echo '<img src="'.$sub['image'].'" class="img-fluid"/>';
                 	echo '</div>';
   			}
   			$delay = $delay + 150;
