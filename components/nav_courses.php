@@ -34,7 +34,7 @@
           <li><a target="_blank" href="https://enrollment.ub.edu.ph/admission/">Enrollment</a></li>
 
           <!-- NEWS -->
-          <li><a href="#news">News</a></li>
+          <li><a href="index.php#news">News & Features</a></li>
           <!-- LIBRARY -->
           <li class="drop-down">
             <a href="#">Library</a>
