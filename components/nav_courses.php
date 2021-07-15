@@ -17,7 +17,7 @@
               <li><a href="#courses">Courses</a></li>
 
               <li><a href="#">Calendar</a></li>
-              <li><a href="#team">Faculty</a></li>
+              <li><a href="index.php#team">Faculty</a></li>
             </ul>
           </li>
 
