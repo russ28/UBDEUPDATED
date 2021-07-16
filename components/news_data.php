@@ -18,7 +18,7 @@
 							To access the UB Contact Tracing and Appointment App, one may go to
 							<a target='_blank' href='https://ahp.ub.edu.ph/login'>https://ahp.ub.edu.ph/login</a>.",
 				"author" => "",
-				"date_posted" => "",
+				"date_posted" => "July 13, 2021",
 				"image" => "assets/img/Images/News/IMG-3777a_0.jpeg"
 			),
 
@@ -71,7 +71,7 @@
 								inspection via video conferencing.
 								",
 				"author" => "",
-				"date_posted" => "",
+				"date_posted" => "July 05, 2021",
 				"image" => "assets/img/Images/News/LGU Visit.jpeg"
 			),
 
@@ -100,7 +100,7 @@
 								<a target='_blank' href='https://issuu.com/thewesternianpioneer/docs/for_issuu'>https://issuu.com/thewesternianpioneer/docs/for_issuu</a>
 								",
 				"author" => "",
-				"date_posted" => "",
+				"date_posted" => "May 28, 2021",
 				"image" => "assets/img/Images/News/THE WESTERNIAN PIONEER POSTER (1).jpeg"
 			),
 	);

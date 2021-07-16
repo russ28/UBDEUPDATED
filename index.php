@@ -178,7 +178,7 @@
         <div class="section-title">
           <span>Calendar of Activities</span>
           <h2>Calendar of Activities</h2>
-          <p>Stay Updated.</p>
+          <p>Stay updated with our academic activities.</p>
         </div>
 
         <div class="row">
@@ -210,7 +210,7 @@
         <div class="section-title">
           <span>News & Features</span>
           <h2>News & Features</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          <p>Stay updated with our academic events</p>
         </div>
         <div class="row">
         <?php
@@ -242,7 +242,7 @@
         <div class="section-title">
           <span>Faculty</span>
           <h2>Faculty</h2>
-          <p>I am happy to introduce our globally competitive educators.</p>
+          <p>Meet the best educators</p>
         </div>
 
         <div class="row">
