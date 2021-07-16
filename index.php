@@ -6,8 +6,29 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>UB &mdash; Distance Learning</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Univerisity of Batangas" name="description">
+  <meta content="UB" name="keywords">
+  <meta content="UB Lipa" name="keywords">
+  <meta content="University of Batangas" name="keywords">
+  <meta content="Certificate" name="keywords">
+  <meta content="certificate courses" name="keywords">
+  <meta content="online training" name="keywords">
+  <meta content="online course" name="keywords">
+  <meta content="distance learning" name="keywords">
+  <meta content="pornhub" name="keywords">
+  <meta content="lipa" name="keywords">
+  <meta content="lipa city" name="keywords">
+  <meta content="education" name="keywords">
+  <meta content="online" name="keywords">
+  <meta content="online education" name="keywords">
+  <meta content="short course" name="keywords">
+  <meta content="short training" name="keywords">
+  <meta content="short online course" name="keywords">
+  <meta content="short online training" name="keywords">
+  <meta content="best short course" name="keywords">
+
+  <!-- ROBOTS -->
+  <meta name=”robots” content=”index, follow”>
 
   <!-- Favicons -->
   <link rel="icon" href="assets/img/favicon.png" type="image/png"/>
