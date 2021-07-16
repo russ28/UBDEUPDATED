@@ -81,18 +81,22 @@
   				$delay = 0;
   				// SKIP COURSE THAT IS NOT ASSOCIATED WITH THE CATEGORY
   				if($sub['code'] != $filter) continue;
-                	echo '<div class="mt-4 mb-3 col-lg-8 col-md-8 col-sm-12">';
+                  echo '<div class="mt-4 mb-3 col-lg-4 col-md-12 col-sm-12">';
+                  echo '<img src="'.$sub['image'].'" class="img-fluid"/>';
+                  echo '</div>';
+                	echo '<div class="mt-4 mb-3 col-lg-6 col-md-12 col-sm-12">';
                 	echo '<h3 style="color:#800000;">'.$sub['course_title'].'</h3>';
                 	echo '<div>';
                 	echo '<p>'.$sub['description'].'</p>';
                 	echo '<p><b>Faculty:</b>&nbsp;'.$sub['faculty'].'</p>';
                 	echo '<p><b>Duration:</b>&nbsp;'.$sub['duration'].'</p>';
-                	echo '<a href="" class="btn btn-secondary btn-sm">Enroll</a>';
                 	echo '</div>';
                 	echo '</div>';
-                	echo '<div class="mt-4 mb-3 col-lg-4">';
-                	echo '<img src="'.$sub['image'].'" class="img-fluid"/>';
-                	echo '</div>';
+                  echo '<div class="mt-4 mb-3 col-lg-2 col-md-12 col-sm-12">';
+                  echo '<a href="https://ubian.ub.edu.ph/?from=%2Fhome_news&log_in_required=true" class="btn  btn-sm" style="background-color:#800000;color:white;">View Learning Module</a>';
+                  echo '<br><br><a href="https://enrollment.ub.edu.ph/admission/" class="btn btn-sm" style="background-color:#800000;color:white;">Enroll</a>';
+                  echo '</div>';
+                	
   			}
   			$delay = $delay + 150;
   		?>
