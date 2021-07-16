@@ -16,7 +16,7 @@
             <ul>
               <li><a href="#courses">Courses</a></li>
 
-              <li><a href="#">Calendar</a></li>
+              <li><a href="#calendar">Calendar</a></li>
               <li><a href="#team">Faculty</a></li>
             </ul>
           </li>

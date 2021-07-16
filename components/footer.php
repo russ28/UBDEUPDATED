@@ -19,7 +19,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i><a target="_blank" href="https://enrollment.ub.edu.ph/admission/form.php?q=new">Application</a></li>
@@ -34,7 +34,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Course Category</h4>
             <ul>
               <?php
@@ -46,12 +46,10 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+          <div class="col-lg-2 col-md-6 footer-newsletter">
+            <!-- <h4>Our Newsletter</h4> -->
+            <img class="img-fluid" src="assets/img/clients/aja.jpeg"/>
+            
 
           </div>
 
