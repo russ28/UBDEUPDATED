@@ -118,7 +118,7 @@
 
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
-              <span>Mission</span>
+              <span>Vision</span>
               <h4>Lorem Ipsum</h4>
               <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
             </div>
@@ -126,7 +126,7 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
-              <span>Vision</span>
+              <span>Mission</span>
               <h4>Repellat Nihil</h4>
               <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
             </div>
@@ -194,7 +194,7 @@
 
     <!-- GOOGLE CALENDAR EMBED -->
 
-    <section id="calendar" class="">
+    <!-- <section id="calendar" class="">
       <div class="container">
         <div class="section-title">
           <span>Calendar of Activities</span>
@@ -207,7 +207,8 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section> -->
+    <!-- End Services Section -->
     <!-- END GOOGLE CALENDAR -->
 
 
