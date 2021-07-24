@@ -4,7 +4,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>UB Distance Learning Portal</h3>
+              <h3>UB Distance Education Portal</h3>
               <p>
                 Kumintang Ibaba, Hilltop, Batangas City<br><br>
                 <strong>Phone:</strong> +63.43.980.00.41<br>
@@ -59,7 +59,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Day</span></strong>. All Rights Reserved
+        Copyright &copy; <strong><span>2021 University of Batangas, All Rights Reserved</span></strong>. &mdash; Hilltop Road, Batangas City 4200 Philippines
       </div>
       <div class="credits">
       </div>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>UB &mdash; Distance Learning</title>
+  <title>UB &mdash; Distance Education</title>
   <meta content="Univerisity of Batangas" name="description">
   <meta content="UB" name="keywords">
   <meta content="UB Lipa" name="keywords">
@@ -262,18 +262,6 @@
     <!-- END GOOGLE CALENDAR -->
 
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
 
     <!-- ======= News Section ======= -->
     <section id="news" class="portfolio">

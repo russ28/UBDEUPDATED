@@ -14,7 +14,7 @@
           <!-- ACADEMICS -->
           <li class="drop-down"><a href="#">Academics</a>
             <ul>
-              <li><a href="#courses">Courses</a></li>
+              <li><a href="#courses">Courses and Certificate Series</a></li>
 
               <!-- <li><a href="index.php#calendar">Calendar</a></li> -->
               <li><a href="index.php#team">Faculty</a></li>
