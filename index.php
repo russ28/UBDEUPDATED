@@ -70,28 +70,30 @@
 
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+ <!--  <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
       <h1>University of Batangas Distance Learning Portal</h1>
       <h2>&infin; Where we meet infinite possibilities.</h2>
       
     </div>
-  </section> <!-- End Hero -->
+  </section> --> <!-- End Hero -->
 
 
   <!-- ========CAROUSEL=============== -->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <section id="home">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="https://images.pexels.com/photos/374820/pexels-photo-374820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="First slide">
+          <img class="d-block w-100" src="assets/img/UBLIPA.jpeg" alt="First slide">
+          <div class="carousel-caption">
+            <h1>University of Batangas Distance Learning Portal</h1>
+            <p>&infin; Where we meet infinite possibilities.</p>
+          </div>      
         </div>
+
         <div class="carousel-item">
-          <img class="d-block w-100" src="https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Second slide">
+          <img class="d-block w-100" src="assets/img/UBLIPA2.jpeg" alt="First slide">
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://images.pexels.com/photos/5198239/pexels-photo-5198239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Third slide">
-        </div>
-      </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -101,6 +103,8 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    </section>
+    
   <!-- END CAROUSEL -->
 
   <main id="main">
@@ -110,25 +114,39 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+          <div class="col-lg-5 order-1 order-lg-2" data-aos="fade-left">
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+          <div class="col-lg-7 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
             <h3>About University of Batangas</h3>
-            <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            
+              <h3 style="color:#800000;">Philosophy</h3>
+              <p class="">
+              The University of Batangas, a stock non-sectarian, private educational institution, believes in the pursuit of knowledge, values and skills necessary for the preservation and improvement of the Philippine society. It has faith in the dignity of the human person, in the democratic process, in the reward for individual excellence, and in the freedom of a person to worship God according to his conscience. Thus, the institution believes that the development of the individual as a person and worker is an effective means in building a better family, community and nation, and a better world.
             </p>
+             <h3 style="color:#800000;">Objectives</h3>
+             <p>The University of Batangas aims to:</p>
+
             <ul>
-              <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              <li><i class="icofont-check-circled"></i> 
+              Pursue academic excellence through continuing search for the application of truth, and knowledge and wisdom via traditional and alternative modes of instructional delivery.
+              </li>
+
+              <li><i class="icofont-check-circled"></i> 
+              Promote moral and spiritual development through an integrated educational process that will enhance human character and dignity;
+              </li>
+
+              <li><i class="icofont-check-circled"></i> 
+              Develop cultural, economic and socio-civic conscience through an educational content relevant to national development needs, conditions and aspirations;
+              </li>
+
+              <li><i class="icofont-check-circled"></i> Strengthen involvement in community services through varied economic and environmental projects;</li>
+              <li><i class="icofont-check-circled"></i> Attain institutional self-reliance through responsive programs for staff, facilities and systems development;</li>
+              <li><i class="icofont-check-circled"></i> Ensure financial viability and profitability</li>
+              <li><i class="icofont-check-circled"></i> Adopt internationalization to meet the shifting demands in the national, regional and global labor environment; and</li>
+              <li><i class="icofont-check-circled"></i> Increase the University's productivity and innovation in research, scholarship and creative activities that impact economic and societal development</li>
+
             </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
           </div>
         </div>
 
