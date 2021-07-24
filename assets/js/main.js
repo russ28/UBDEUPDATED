@@ -1,4 +1,5 @@
 
+$('.carousel').carousel();
 
 function filter_course(){
   var categ = document.querySelector('#filter_data').value;
