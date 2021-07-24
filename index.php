@@ -97,6 +97,10 @@
         </div>
 
         <div class="carousel-item">
+          <img class="d-block w-100" src="assets/img/main.jpeg" alt="" id="car_img">
+        </div>
+
+        <div class="carousel-item">
           <img class="d-block w-100" src="assets/img/UBLIPA2.jpeg" alt="" id="car_img">
         </div>
 
