@@ -91,7 +91,7 @@
         <div class="carousel-item active">
           <img class="d-block w-100" src="assets/img/UBLIPA.jpeg" alt="" id="car_img">
           <div class="carousel-caption">
-            <h3>UNIVERSITY OF BATANGAS DISTANCE EDUCATION PORTAL</h3>
+            <h2>UNIVERSITY OF BATANGAS DISTANCE EDUCATION PORTAL</h2>
             <p>&infin; Where we meet infinite possibilities.</p>
           </div>      
         </div>
