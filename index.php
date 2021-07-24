@@ -48,6 +48,7 @@
   <style type="text/css">
     #car_img {
       max-height: 100vh;
+      object-fit: cover;
     }
   </style>
 </head>
