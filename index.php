@@ -45,7 +45,11 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <style type="text/css">
+    #car_img {
+      max-height: 100vh;
+    }
+  </style>
 </head>
 
 <body>
@@ -80,20 +84,21 @@
 
 
   <!-- ========CAROUSEL=============== -->
-    <section id="home">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <section  id="home">
+      <div id="carouselExampleControls" class="carousel slide row" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="assets/img/UBLIPA.jpeg" alt="First slide">
+          <img class="d-block w-100" src="assets/img/UBLIPA.jpeg" alt="" id="car_img">
           <div class="carousel-caption">
-            <h1>University of Batangas Distance Learning Portal</h1>
+            <h3>UNIVERSITY OF BATANGAS DISTANCE EDUCATION PORTAL</h3>
             <p>&infin; Where we meet infinite possibilities.</p>
           </div>      
         </div>
 
         <div class="carousel-item">
-          <img class="d-block w-100" src="assets/img/UBLIPA2.jpeg" alt="First slide">
+          <img class="d-block w-100" src="assets/img/UBLIPA2.jpeg" alt="" id="car_img">
         </div>
+
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -163,23 +168,23 @@
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
               <span>Vision</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <!-- <h4>Lorem Ipsum</h4> -->
+              <p>We envision the University of Batangas Distance Education as a center of excellence committed to providing a holistic student centered experience through flexibile distant learning education.</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
               <span>Mission</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <!-- <h4>Repellat Nihil</h4> -->
+              <p>The University of Batangas Distance Education provides equal educational opportunities to diverse students' needs through accessible, flexible distance learning.</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
               <span>Objectives</span>
-              <h4> Ad ad velit qui</h4>
+              <!-- <h4> Ad ad velit qui</h4> -->
               <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
             </div>
           </div>
