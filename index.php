@@ -316,7 +316,7 @@
               <h4>Walter White</h4>
               <span>Chief Executive Officer</span>
               <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+                Magn quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
               </p>
               <div class="social">
                 <a href=""><i class="icofont-twitter"></i></a>
